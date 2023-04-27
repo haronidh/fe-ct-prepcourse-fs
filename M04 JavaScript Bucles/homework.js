@@ -233,11 +233,12 @@ function tieneTresDigitos(num) {
    // Caso contrario, retornar false.
    // Tu código:
 
-   if (num > 99 && num < 1000) {
+   if (num > 99 && num <= 999) {
       return true;
    } else {
       return false;
    }
+
 }
 
 function doWhile(num) {
